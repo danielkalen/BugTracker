@@ -1,0 +1,96 @@
+mixin fieldsetInput(name, label, placeholder, classes, required, inputClasses)
+  - if (required) classes = classes + ' required'
+  .fields-fieldset.fieldset.input_text(class=classes)
+    label.fields-fieldset-label(for=name)=label
+    input.fields-fieldset-input.input(id=name, name=name, type="text", placeholder=placeholder, class=inputClasses)
+
+
+
+mixin fieldsetSelect(name, label, placeholder, classes, required, items)
+  - if (required) classes = classes + ' required'
+  .fields-fieldset.fieldset.select(class=classes)
+    label.fields-fieldset-label(for=name)=label
+    select.fields-fieldset-select.input(id=name, name=name)
+      option(value='')=placeholder
+      -if (items)
+        each item, index in items
+          option(value=index)=item
+
+
+mixin fieldsetTextarea(name, label, placeholder, classes, required, inputClasses)
+  - if (required) classes = classes + ' required'
+  .fields-fieldset.fieldset.textarea(class=classes)
+    label.fields-fieldset-label(for=name)=label
+    textarea.fields-fieldset-textarea.input(id=name, name=name, placeholder=placeholder)
+
+
+mixin fieldsetCheckboxSingle(name, label, classes, required)
+  - if (required) classes = classes + ' required'
+  .fields-fieldset.fieldset.checkbox(class=classes)
+    .fields-fieldset.fieldset-checkbox.input-button
+      div.fields-fieldset-checkbox-box
+      label.fields-fieldset-checkbox-label(for=name)=label
+      input.input.checkbox(id=name, name=name type='checkbox')
+
+
+mixin fieldsetCheckbox(name, label, classes, required, items)
+  - if (required) classes = classes + ' required'
+  - classes = classes + ' options_' + items.length
+
+  .fields-fieldset.fieldset.checkbox(class=classes)
+    .fields-fieldset-label=label
+    each item, index in items
+      - id = name + '_' + index
+      .fields-fieldset-checkbox.input-button
+        div.fields-fieldset-checkbox-box
+        label.fields-fieldset-checkbox-label(for=id)=item
+        input.input.checkbox(id=id, name=name, type='checkbox', val=item)
+
+
+mixin fieldsetRadio(name, label, classes, required, items)
+  - if (required) classes = classes + ' required'
+  - classes = classes + ' options_' + items.length
+
+  .fields-fieldset.fieldset.radio(class=classes)
+    .fields-fieldset-label=label
+    each item, index in items
+      - id = name + '_' + index
+      .fields-fieldset-radio.input-button
+        div.fields-fieldset-radio-box
+        label.fields-fieldset-radio-label(for=id)=item
+        input.input.radio(id=id, name=name, type='radio', val=item)
+
+
+mixin fieldsetRadioSpecial(name, label, classes, required, items)
+  - if (required) classes = classes + ' required'
+  - classes = classes + ' options_3'
+
+  .fields-fieldset.fieldset.radio.radio_special(class=classes)
+    .fields-fieldset-label=label
+    each item, index in items
+      - id = name + '_' + index
+      .fields-fieldset-radio.input-button
+        div.fields-fieldset-radio-box
+        label.fields-fieldset-radio-label(for=id)=item
+          .fields-fieldset-radio-label-sub=index
+        input.input.radio(id=id, name=name, type='radio', val=item)
+
+
+mixin fieldsetRange(name, label, classes, required)
+  //- - if (required) classes = classes + ' required'
+  .fields-fieldset.fieldset.range.required(class=classes)
+    .fields-fieldset-label=label
+    .fields-fieldset-range(class=classes)
+      .fields-fieldset-range-start
+      .fields-fieldset-range-end
+    input.fields-fieldset-input.input(id=name, name=name, type="hidden")
+
+
+
+mixin fieldsetFile(name, label, classes, required, inputClasses)
+  - if (required) classes = classes + ' required'
+  .fields-fieldset.fieldset.file(class=classes)
+    label.fields-fieldset-label(for=name)=label
+    .fields-fieldset-file_wrap
+      input.fields-fieldset-file.input(id=name, name=name, type="file", class=inputClasses, accept='.pdf, .doc, .png, .tiff, .jpg, .rtf, .rtfd, .pages, .xls, .csv', multiple='')
+

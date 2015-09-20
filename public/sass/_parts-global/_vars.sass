@@ -1,0 +1,344 @@
+// ==== Proper Syntax for background shorthand =================================================================================
+  // background:
+  //   [background-image]
+  //   [background-position]
+  //   [/ background-size]
+  //   [background-repeat]
+  //   [background-attachment]
+  //   [background-origin]
+  //   [background-clip]
+  //   [background-color]
+
+
+// ==== Colors =================================================================================
+$primary: #045da0
+$primary-dark: #023e6b
+$contrast: #e39315
+$grey-darker: #595959
+$grey-dark: #666666
+$grey-other: #979797
+$grey: #777777
+$grey-light: #b2b2b2
+$grey-lighter: #d1d1d1
+$divider: $grey-lighter
+$divider-dark: #bfbfbf
+$black: #2f2f2f
+$yellow: #ffba00
+$pros: #72c322
+$cons: #cc4820
+$green: #6ec11c
+$cloud: #34bbd1
+$voip: #86cc3b
+$business: #d39f01
+$white: #fff
+$subwhite: #fbfbfb
+$subberwhite: #f8f8f8
+
+$iconfamily: gvcons
+
+
+// ==== snippet mixins =================================================================================
+=overflow-touch
+  -webkit-overflow-scrolling: touch
+
+=tap-highlight-reset
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+=tap-highlight
+  -webkit-tap-highlight-color: rgba(0,0,0,0.2) !important
+
+
+
+
+// ==== general mixinx =================================================================================
+=m($size: 760, $max: max, $dimension:width)
+  @media screen and (#{$max}-#{$dimension}: #{$size}px)
+    @content
+
+=min($size: 760, $dimension:width)
+  @media screen and (min-#{$dimension}: #{$size}px)
+    @content
+
+=max($size: 760, $dimension:width)
+  @media screen and (max-#{$dimension}: #{$size}px)
+    @content
+
+=maxmin($maxsize: 760, $minsize: 760, $maxdimension:width, $mindimension:width)
+  @media screen and (max-#{$maxdimension}: #{$maxsize}px) and (min-#{$mindimension}: #{$minsize}px)
+    @content
+
+// =e($element)
+//   &-#{$element}
+//     @content
+
+=center($top: 0, $bottom: 0, $important: '')
+  @if $top == 0 and $bottom == 0
+    @if $important != ''
+      margin: 0 auto !important 
+    @else
+      margin: 0 auto
+  @else
+    @if $important != ''
+      margin: #{$top} auto #{$bottom} !important
+    @else
+      margin: #{$top} auto #{$bottom}
+
+=valign($top: 50%)
+  top: $top
+  -webkit-transform: translateY(-50%)
+  -moz-transform: translateY(-50%)
+  -ms-transform: translateY(-50%)
+  -o-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+=halign($left: 50%)
+  left: $left
+  -webkit-transform: translateX(-50%)
+  -moz-transform: translateX(-50%)
+  -ms-transform: translateX(-50%)
+  -o-transform: translateX(-50%)
+  transform: translateX(-50%)
+
+=balign($top: 50%, $left: 50%)
+  top: $top
+  left: $left
+  -webkit-transform: translateX(-50%) translateY(-50%)
+  -moz-transform: translateX(-50%) translateY(-50%)
+  -ms-transform: translateX(-50%) translateY(-50%)
+  -o-transform: translateX(-50%) translateY(-50%)
+  transform: translateX(-50%) translateY(-50%)
+
+=unvalign
+  top: 0
+  -webkit-transform: translateY(0)
+  -o-transform: translateY(0)
+  transform: translateY(0)
+
+=ratio($percentual-height)
+  // Wrapper
+  position: relative
+  display: block
+  vertical-align: top
+  &:before
+    padding-top: $percentual-height
+    content: ''
+    display: block
+  // Content
+  > *
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+
+=size($width, $height: $width)
+  width: #{$width}px
+  height: #{$height}px
+
+=clearfix
+  &:before,
+  &:after
+    content: ""
+    display: table
+  &:after
+    clear: both
+
+=ellipsis($width: 100%)
+  display: inline-block
+  max-width: $width
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+  word-wrap: normal
+
+=hyphens($opt)
+  -webkit-hyphens: $opt
+  -moz-hyphens: $opt
+  -o-hyphens: $opt
+  hyphens: $opt
+
+=user-select($opt)
+  -webkit-user-select: $opt
+  -khtml-user-select: $opt
+  -moz-user-select: $opt
+  -ms-user-select: $opt
+  user-select: $opt
+
+=linear-gradient($fromColor, $toColor)
+  background-color: $toColor
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor))
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor)
+  background-image: -moz-linear-gradient(top, $fromColor, $toColor)
+  background-image: -ms-linear-gradient(top, $fromColor, $toColor)
+  background-image: -o-linear-gradient(top, $fromColor, $toColor)
+  background-image: linear-gradient(top, $fromColor, $toColor)
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}')
+
+=appearance($appearance: none)
+  -webkit-appearance: $appearance
+  -moz-appearance: $appearance
+  -ms-appearance: $appearance
+  -o-appearance: $appearance
+  appearance: $appearance
+
+=transition($transition)
+  -webkit-transition: $transition
+  -moz-transition: $transition
+  transition: $transition
+
+=transform($transform: none)
+  -webkit-transform: $transform
+  -moz-transform: $transform
+  -ms-transform: $transform
+  -o-transform: $transform
+  transform: $transform
+
+=arrow_helper($arrowSize, $arrowColor, $margin, $side, $align)
+  @if $side == "top"
+    border-bottom-color: $arrowColor
+    top: -2 * $arrowSize
+  @if $side == "bottom"
+    border-top-color: $arrowColor
+    bottom: -2 * $arrowSize
+  @if $side == "left"
+    border-right-color: $arrowColor
+    left: -2 * $arrowSize
+  @if $side == "right"
+    border-left-color: $arrowColor
+    right: -2 * $arrowSize
+  @if $side == "right" or $side == "left"
+    @if $align == "center"
+      top: 50%
+      margin-top: -$arrowSize
+    @else if $align == "top"
+      top: $margin
+    @else if $align == "bottom"
+      bottom: $margin
+  @if $side == "bottom" or $side == "top"
+    @if $align == "center"
+      right: 50%
+      margin-right: -$arrowSize
+    @else if $align == "left"
+      left: $margin
+    @else if $align == "right"
+      right: $margin
+
+=arrow($side: "right", $align: "center", $size: 20px, $color: #f6f6f6, $borderColor: "none", $borderSize: 3px)
+  $selector: "&:after, &:before"
+  @if $borderColor == "none"
+    $selector: "&:after"
+  #{$selector}
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+    visibility: visible
+  &:after
+    border-width: $size
+    +arrow_helper($size, $color, $size, $side, $align)
+  @if $borderColor != "none"
+    &:before
+      border-width: $borderSize + $size
+      +arrow_helper($size + $borderSize, $borderColor, $size - $borderSize, $side, $align)
+
+=transform($transforms) 
+  -moz-transform: $transforms
+  -o-transform: $transforms
+  -ms-transform: $transforms
+  -webkit-transform: $transforms
+  transform: $transforms
+
+=transform-origin($transforms) 
+  -moz-transform-origin: $transforms
+  -o-transform-origin: $transforms
+  -ms-transform-origin: $transforms
+  -webkit-transform-origin: $transforms
+  transform-origin: $transforms
+
+
+=user-select($opt)
+  -webkit-user-select: $opt
+  -khtml-user-select: $opt
+  -moz-user-select: $opt
+  -ms-user-select: $opt
+  user-select: $opt
+
+
+=icon($iconname)
+  content: $iconname
+  font-family: $iconfamily
+  line-height: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ==== Functions =================================================================================
+
+@function perc($target, $parent)
+  @return $target / $parent * 100%
+
+@function golden($target)
+  @return #{$target * 1.618}px
+
+@function golden-down($target)
+  @return #{$target / 1.618}px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ==== Easings =================================================================================
+
+// EASE IN
+$ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53)
+$ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19)
+$ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22)
+$ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06)
+$ease-in-sine: cubic-bezier(0.47, 0, 0.745, 0.715)
+$ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035)
+$ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335)
+$ease-in-back: cubic-bezier(0.6, -0.28, 0.735, 0.045)
+
+// EASE OUT
+$ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94)
+$ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1)
+$ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1)
+$ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1)
+$ease-out-sine: cubic-bezier(0.39, 0.575, 0.565, 1)
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1)
+$ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1)
+$ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275)
+
+// EASE IN OUT
+$ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955)
+$ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1)
+$ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1)
+$ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1)
+$ease-in-out-sine: cubic-bezier(0.445, 0.05, 0.55, 0.95)
+$ease-in-out-expo: cubic-bezier(1, 0, 0, 1)
+$ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+$ease-in-out-back: cubic-bezier(0.68, -0.55, 0.265, 1.55)

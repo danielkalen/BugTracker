@@ -1,0 +1,504 @@
+$contrast-color: $contrast
+$label-color: $grey-light
+$error-color: #E34B4F
+$text-color: $grey-dark
+$dropdownIcon: 'b'
+$checkIcon: 'M'
+
+
+
+=fieldset($style: new, $inputHeight: 48px, $inputColor: white, $textareaHeight: 78px, $checkmarkTop: 68%)
+	position: relative
+	width: 100%
+	+center
+	border: 0
+	text-align: left
+	+clearfix
+
+	@if $style == new
+		margin-bottom: 18px
+	
+	// Icon base
+	&:before
+		position: absolute
+		+valign
+		right: 12px
+		z-index: 3
+		font-size: 18px
+		font-family: gvcons
+		line-height: 1
+		color: $grey-light
+		transition: all 0.2s
+
+	&.error
+		-webkit-animation: shakey 0.2s
+		animation: shakey 0.2s
+		color: $error-color
+
+	&.half
+		float: left
+		width: perc(280px, 580px)
+		
+		// &:nth-child(2n)
+		// 	margin-left: perc(18px, 580px)
+
+	+fieldset-label($style)
+
+	+fieldset-input_n_select($inputHeight, $inputColor, $style)
+
+	+fieldset-input($inputHeight, $inputColor, $style)
+
+	+fieldset-select($inputHeight, $inputColor, $style)
+
+	+fieldset-radio($inputHeight, $inputColor, $style)
+
+	+fieldset-checkbox($inputHeight, $inputColor, $style)
+
+	+fieldset-textarea($inputColor, $textareaHeight, $style)
+
+	@if $style == old
+		.checkmark
+			top: $checkmarkTop
+
+
+
+// ==== Label =================================================================================
+=fieldset-label($style: new)
+	@if $style == new	
+		&-label
+			position: absolute
+			z-index: 20
+			font-size: 11px
+			font-weight: 600
+			line-height: 1
+			color: $label-color
+			padding: 11px 16px 0
+			opacity: 0
+			transition: opacity 0.2s
+			cursor: default
+			pointer-events: none
+
+			.filled &
+				opacity: 1
+			.focus &
+				color: $contrast-color
+			.error &
+				color: $error-color
+			.textarea &
+				position: relative
+				opacity: 1
+				padding: 0
+				font-size: 15px
+				font-weight: 700
+				color: $text-color
+				cursor: text
+			.input_text &
+				cursor: text
+			.select &
+				cursor: pointer
+		
+	@if $style == old	
+		&-label
+			margin: 30px 0 10px
+			font-size: 15px
+			text-align: left
+			font-weight: 600
+
+
+// ==== Input & Select =================================================================================
+=fieldset-input_n_select($inputHeight, $inputColor, $style)
+	&-input,
+	&-select
+		position: relative
+		z-index: 2
+		display: block
+		width: 100%
+		height: $inputHeight
+		background-color: $inputColor
+		border: 1px solid $divider
+		border-radius: 3px
+		box-sizing: border-box
+		font-size: 16px
+		font-weight: 500
+		color: $grey-darker
+		transition: all 0.2s
+
+		.focus &
+			border-color: $contrast-color
+		.error &
+			border-color: $error-color
+
+
+
+// ==== Input =================================================================================
+=fieldset-input($inputHeight, $inputColor, $style)
+	&-input
+		padding: 4px 30px 0 15px
+
+		@if $style == new
+			.filled &
+				padding: 16px 30px 0 15px
+
+		&::-ms-clear
+			display: none !important
+
+
+
+// ==== Select =================================================================================
+=fieldset-select($inputHeight, $inputColor, $style)
+	&.select
+		&:after
+			+icon($dropdownIcon)
+			position: absolute
+			z-index: 3
+			+valign(54%)
+			right: 12px
+			font-size: 18px
+			color: $text-color
+			pointer-events: none
+			cursor: default
+			
+			@if $style == old
+				top: 77%
+
+
+	&-select
+		color: darken($label-color, 6)
+		padding: 0px 30px 0 15px
+		line-height: $inputHeight + 1
+		box-sizing: border-box
+		transition: color 0.0001s, padding 0.2s
+		@if $style == old
+			color: $text-color
+		.valid &
+			color: $text-color
+		@if $style == new
+			.filled &
+				// padding: 6px 30px 0 15px
+				padding: (($inputHeight * 0.127)) 30px 0 15px
+
+		&.default_component
+			position: relative
+			z-index: 2
+			opacity: 0
+		
+		&.new_component
+			position: absolute
+			z-index: 1
+			top: 0
+			left: 0
+			@if $style == old
+				top: auto
+				bottom: 0
+
+
+
+
+
+
+// ==== Textarea =================================================================================
+=fieldset-textarea($inputColor, $textareaHeight, $style)
+	&-textarea
+		position: relative
+		z-index: 2
+		width: 100%
+		height: $textareaHeight
+		padding: 14px 15px 0
+		background-color: $inputColor
+		border: 1px solid $divider
+		border-radius: 2px
+		font-size: 16px
+		font-weight: 500
+		color: $text-color
+		box-sizing: border-box
+		transition: all 0.2s
+		
+		@if $style == new
+			margin-top: 5px 
+
+		.error &
+			border-color: $error-color
+
+
+// ==== radio =================================================================================
+=fieldset-radio($inputHeight, $inputColor, $style)
+	&.radio
+		display: block
+		// float: none
+		// clear: both
+		+clearfix
+
+	&-radio
+		position: relative
+		float: left
+		min-height: $inputHeight
+		padding: 10px
+		background-color: white
+		border: 1px solid $divider
+		border-radius: 3px
+		color: $grey
+		box-sizing: border-box
+		cursor: pointer
+
+		
+		.options_2 &
+			width: perc(207px, 430px)
+			margin-right: perc(16px, 574px)		
+		.options_3 &
+			width: perc(135px, 430px)
+			margin-right: perc(16px, 574px)
+		.options_4 &
+			width: perc(97px, 430px)
+			margin-right: perc(14px, 574px)
+		.options_5 &
+			width: perc(76.4px, 430px)
+			margin-right: perc(10px, 574px)
+		.options_6 &
+			width: perc(65px, 430px)
+			margin-right: perc(10px, 574px)
+		.options_7 &
+			width: perc(54.5px, 430px)
+			margin-right: perc(8px, 574px)
+		.options_8 &
+			width: perc(47.5px, 430px)
+			margin-right: perc(8px, 574px)
+
+
+		&:last-child
+			margin-right: 0
+
+		&.checked
+			color: lighten($primary, 8)
+			
+			// Active Border
+			&:after
+				content: ''
+				position: absolute
+				top: -1px
+				left: -1px
+				border-radius: 3px
+				width: 99%
+				height: 96%
+				border: 2px solid lighten($primary, 8)
+
+		&-label
+			font-size: 14px
+			font-weight: 600
+			line-height: 1
+			text-transform: uppercase
+			text-align: center
+			cursor: pointer
+			+user-select(none)
+			+max(736)
+				font-size: 12px
+			+max(520)
+				.mobile-hidden
+					display: none
+
+			.options_3 &
+				font-size: 12px
+				font-weight: 700
+				+max(350)
+					font-size: 11px
+
+			.options_6 &
+				position: absolute
+				+valign
+				left: 0
+				right: 0
+				font-size: 14px
+				font-weight: 600
+
+
+		.input
+			display: none
+	
+
+
+
+
+
+// ==== Checkbox =================================================================================
+=fieldset-checkbox($inputHeight, $inputColor, $style)
+	
+	&-checkbox
+		margin-top: 13px
+		cursor: pointer
+		+clearfix
+
+		&:first-child
+			margin-top: 0
+
+		&-box
+			position: relative
+			float: left
+			+size(19)
+			margin-right: 10px
+			background-color: white
+			border: 1px solid $divider
+			border-radius: 3px
+			box-sizing: border-box
+
+			.checked &:after
+				+icon($checkIcon)
+				position: absolute
+				left: 1px
+				top: 1px
+				width: 100%
+				font-size: 14px
+				text-align: center
+				color: lighten($primary, 7)
+
+		&-label
+			position: relative
+			float: left
+			font-weight: 500
+			font-size: 14px
+			line-height: 20px
+			cursor: pointer
+			pointer-events: none
+			+max(420)
+				font-size: 13px
+
+			.error &
+				color: #E34B4F
+
+		.input
+			display: none
+
+
+
+
+
+
+
+// ==== Checkbox Single =================================================================================
+=fieldset-checkbox_single($inputHeight, $inputColor, $style)
+	&-checkbox_single
+		&-label
+			font-size: 14px
+			line-height: 1
+			font-weight: 500
+			color: $text-color
+			display: block
+			margin-left: 19px
+
+		&-box
+			position: relative
+			float: left
+			+size(14)
+			margin-right: 5px
+			background-color: $inputColor
+			border: 1px solid $divider
+			border-radius: 4px
+			box-sizing: border-box
+			cursor: pointer
+
+			&:after
+				+icon($checkIcon)
+				position: absolute
+				display: none
+				padding-top: 2px
+				width: 100%
+				text-align: center
+				font-size: 8px
+				color: $primary
+				cursor: pointer
+
+				.checked &
+					display: block
+
+		.input
+			display: none
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ==== Form Button =================================================================================
+=form-button($buttonHeight: 50px, $buttonColor: $contrast, $margin-top:25px, $arrow: true)
+	&-button
+		position: relative
+		display: block
+		width: 100%
+		margin-top: $margin-top
+		height: $buttonHeight
+		border-radius: 3px
+		background-color: $buttonColor
+		font-weight: 600
+		line-height: 55px
+		color: white
+		cursor: pointer
+		transition: all 0.2s
+		+user-select(none)
+
+		&:hover
+			background-color: darken($buttonColor, 7)
+
+		&-text
+			position: absolute
+			+valign(54%)
+			left: 0
+			font-size: 22px
+			font-weight: 700
+			line-height: 1
+			text-align: center
+			
+			@if $arrow == false
+				right: 0
+				
+			@if $arrow == true
+				right: 16px
+
+				&:after
+					content: 'aa'
+					position: absolute
+					top: 0px
+					font-family: gvcons
+					font-size: 19px
+					font-weight: 700
+					letter-spacing: -10px	

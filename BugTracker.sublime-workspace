@@ -1,0 +1,1141 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"de",
+				"defaultData"
+			],
+			[
+				"cloud",
+				"cloudflare_purge-textbox-textarea"
+			],
+			[
+				"comm-s",
+				"comm-section	Comment - Full section comment"
+			],
+			[
+				"isL",
+				"isLastItem"
+			],
+			[
+				"parent",
+				"parentArray"
+			],
+			[
+				"menu",
+				"menu_order"
+			],
+			[
+				"reoder",
+				"reorder_menu"
+			],
+			[
+				"point",
+				"pointer-events"
+			],
+			[
+				"original",
+				"originalArray"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"campa",
+				"campaign-popup"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"send",
+				"sendingItemHTML"
+			],
+			[
+				"provide",
+				"provider"
+			],
+			[
+				"quote",
+				"quoteData"
+			],
+			[
+				"indi",
+				"individualQuoteData"
+			],
+			[
+				"query",
+				"query_label"
+			],
+			[
+				"previ",
+				"previousQuery"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"red",
+				"redirect_url"
+			],
+			[
+				"redire",
+				"redirect_type"
+			],
+			[
+				"redi",
+				"redirects"
+			],
+			[
+				"redirect",
+				"redirect_url"
+			],
+			[
+				"is",
+				"isSubmitted"
+			],
+			[
+				"time",
+				"timesOpened"
+			],
+			[
+				"sub",
+				"subscribed"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"serv",
+				"service"
+			],
+			[
+				"checke",
+				"checkedProviders"
+			],
+			[
+				"pr",
+				"provider"
+			],
+			[
+				"true",
+				"TRUE"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"provid",
+				"providerValue"
+			],
+			[
+				"or",
+				"originalProviders"
+			],
+			[
+				"prov",
+				"providers"
+			],
+			[
+				"comm",
+				"comm-subsection	Comment - Subsection comment"
+			],
+			[
+				"ind",
+				"indexInArray"
+			],
+			[
+				"setti",
+				"settingType"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"auto",
+				"autoSubmitToggleState"
+			],
+			[
+				"last",
+				"lastInArray"
+			],
+			[
+				"curr",
+				"current_page"
+			],
+			[
+				"isC",
+				"isCloseToStart"
+			],
+			[
+				"forea",
+				"foreach	foreach …"
+			],
+			[
+				"curernt",
+				"current_page"
+			],
+			[
+				"isV",
+				"isVeryCloseToEnd"
+			],
+			[
+				"current",
+				"current_page"
+			],
+			[
+				"curre",
+				"current_page"
+			],
+			[
+				"scr",
+				"scriptInterval"
+			],
+			[
+				"IP",
+				"ip_address"
+			],
+			[
+				"St",
+				"StickyTable"
+			],
+			[
+				"set",
+				"setTimeout	setTimeout"
+			],
+			[
+				"False",
+				"FALSE"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"defa",
+				"defaultvalue"
+			],
+			[
+				"comms",
+				"comm-section-header	Comment - Section header comment"
+			],
+			[
+				"insert",
+				"inserted"
+			],
+			[
+				"inpu",
+				"input-button"
+			],
+			[
+				"check",
+				"checkboxField"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"input",
+				"inputField"
+			],
+			[
+				"cardcvc",
+				"cardcvcField"
+			],
+			[
+				"checked",
+				"checkedFields"
+			],
+			[
+				"email",
+				"emailField"
+			],
+			[
+				"height",
+				"heightTransitions"
+			],
+			[
+				"callback",
+				"callbackOnResults"
+			],
+			[
+				"comm-sec",
+				"comm-section-header	Comment - Section header comment"
+			],
+			[
+				"Form",
+				"FormUtils"
+			],
+			[
+				"comm-",
+				"comm-section-footer	Comment - Section footer comment"
+			],
+			[
+				"di",
+				"d:i	display:inline"
+			],
+			[
+				"section",
+				"sectionTitle"
+			],
+			[
+				"price",
+				"priceIsHidden"
+			],
+			[
+				"no",
+				"noPriceIsSet"
+			],
+			[
+				"move",
+				"move_scripts_to_footer"
+			],
+			[
+				"cal",
+				"calculatedTotal"
+			],
+			[
+				"provider",
+				"providerPost"
+			],
+			[
+				"path",
+				"pathname"
+			],
+			[
+				"reviewTop",
+				"reviewTopPros"
+			],
+			[
+				"contac",
+				"contact_is_hidden"
+			],
+			[
+				"reviewVeri",
+				"reviewVerifiedUser"
+			],
+			[
+				"plain",
+				"plainReadReviewsText"
+			],
+			[
+				"url",
+				"urlEncoded"
+			],
+			[
+				"false",
+				"FALSE"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"total",
+				"totalChecked"
+			],
+			[
+				"fields",
+				"fieldsMap"
+			],
+			[
+				"provi",
+				"providerID"
+			],
+			[
+				"body",
+				"bodyClass"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"met",
+				"meta_desc"
+			],
+			[
+				"pro",
+				"providers"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"exis",
+				"existingArray"
+			],
+			[
+				"new",
+				"newArray"
+			],
+			[
+				"quoteVal",
+				"quoteValues"
+			],
+			[
+				"translate",
+				"translatedValues"
+			],
+			[
+				"trans",
+				"translatedValues"
+			],
+			[
+				"tra",
+				"translatedValues"
+			],
+			[
+				"quoteVa",
+				"quoteValues"
+			],
+			[
+				"quo",
+				"quoteValue"
+			],
+			[
+				"tan",
+				"translatedValues"
+			],
+			[
+				"autho",
+				"authorLink"
+			],
+			[
+				"revide",
+				"reviewDateMeta"
+			],
+			[
+				"h1",
+				"h1_tag"
+			],
+			[
+				"exi",
+				"existingSorted"
+			],
+			[
+				"fore",
+				"foreach	foreach …"
+			],
+			[
+				"po",
+				"postID"
+			],
+			[
+				"post",
+				"post_type"
+			],
+			[
+				"phone",
+				"phone_review"
+			],
+			[
+				"reg",
+				"regExNoSlash"
+			],
+			[
+				"alt",
+				"altLink"
+			],
+			[
+				"unique_clicks",
+				"unique_ca_clicks"
+			],
+			[
+				"unique",
+				"uniqueUS"
+			],
+			[
+				"uni",
+				"unique"
+			],
+			[
+				"providers",
+				"providersSorted"
+			],
+			[
+				"user",
+				"user-reviews"
+			],
+			[
+				"F",
+				"FALSE"
+			],
+			[
+				"sourc",
+				"sourceType"
+			],
+			[
+				"sour",
+				"sourceType"
+			],
+			[
+				"subscription",
+				"subscription_type"
+			],
+			[
+				"spam",
+				"spamAction"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"bulk",
+				"bulk-action"
+			],
+			[
+				"app",
+				"applyBulkActionsTo"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"submissionIn",
+				"submissionInputValues"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "bash",
+		"selected_items":
+		[
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascri",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"makefi",
+				"Set Syntax: Makefile"
+			],
+			[
+				"PHP",
+				"Set Syntax: PHP"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"set syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ex",
+				"ExpandRegion"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 131.0,
+		"history":
+		[
+			"console.log('abc')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/BugTracker"
+	],
+	"file_history":
+	[
+		"/Users/gazelle/Desktop/gv_git.sh",
+		"/Users/gazelle/Desktop/pushgit",
+		"/Users/gazelle/Desktop/dov_git.sh",
+		"/Users/gazelle/Desktop/dov_git",
+		"/Users/gazelle/Desktop/gvwifi_git.sh",
+		"/Users/gazelle/Desktop/lc_git.sh",
+		"/Users/gazelle/Desktop/pae_git.sh",
+		"/Users/gazelle/Desktop/sb_git.sh",
+		"/Volumes/1TB HDRIVE/Data Recovery 2015-09-19 at 19.37.41/Salvage Sunday, September 20, 2015/json/File10.json",
+		"/Volumes/1TB HDRIVE/Data Recovery 2015-09-19 at 19.37.41/Salvage Sunday, September 20, 2015/json/File3.json",
+		"/Volumes/1TB HDRIVE/Data Recovery 2015-09-19 at 19.37.41/Salvage Sunday, September 20, 2015/json/File1.json",
+		"/Volumes/1TB HDRIVE/Data Recovery 2015-09-19 at 19.37.41/Macintosh HD/Applications/MAMP/bugcleaners/app.js",
+		"/Volumes/1TB HDRIVE/Data Recovery 2015-09-19 at 19.37.41/Macintosh HD/Applications/MAMP/bugcleaners/db.json",
+		"/Applications/MAMP/bugcleaners/db.json",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts-global/notices.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/admin.min.js",
+		"/Users/gazelle/Downloads/cloudflare-cache-purge/lib/ccpurge.js",
+		"/Users/gazelle/Downloads/cloudflare-cache-purge/cloudflare_cachepurge.php",
+		"/Users/gazelle/Downloads/cloudflare-cache-purge/lib/ccpurge.class.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/admin-global.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/functions.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/.htaccess",
+		"/Users/gazelle/Downloads/acf-export-2015-09-18.json",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/endpoints/endpoint-go.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/admin.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/getvoip-campaign.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/admin-provider.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/global.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts-global/normalize.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts-global/_vars.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts-global/_elements.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/getvoip-campaign/pages/quote_requests.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/footer.php",
+		"/Users/gazelle/Desktop/field_data_field_r_email.xml",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-table-row_submission.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/getvoip-campaign.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-getvoip-campaign/campaign-edit_data.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/getvoip-campaign/ajax.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/inc/db-interactions.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/getvoip-campaign/campaign_table.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-getvoip-campaign/campaign-actions.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-popup.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-table-row_clicks.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/getvoip-campaign/pages/email_subs.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/getvoip-campaign/pages/clicks-individual.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/getvoip-campaign/pages/demo_requests.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/getvoip-campaign/pages/clicks.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-getvoip-campaign/campaign-settings.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-getvoip-campaign/campaign-filters.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-table-row_status.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/getvoip-campaign/getvoip-campaign.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/inc/rewrites.php",
+		"/Users/gazelle/Downloads/simple-301-redirects/wp-simple-301-redirects.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-global/_form/form-engine.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/global.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-global/exit-intent.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/home.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/article.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/review.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/inc/ajax.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-settings.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/comparison_page.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts-global/header.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_compare/_horizontal/chart-horizontal-tbody.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-getvoip-campaign/generate_campaign_template.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-getvoip-campaign/campaign-ip_address_details.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/campaign-bulk_actions.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-getvoip-campaign/generate_report.js",
+		"/Users/gazelle/Desktop/tehillim/public/sass/_parts/menu.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/getvoip-campaign/pages/log.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_submit_review/form.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_compare/chart-horizontal.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_provider/provider-data-overview.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/chart-overrides.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/provider.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_article/article-body.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_provider/provider-box.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_provider/provider-details-logo.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_provider/provider-details-info.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-global/notices.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/inc/sections-charts.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/endpoint_go.php",
+		"/Applications/MAMP/bugcleaners/public/sass/_parts-global/_elements.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-table-row_actions.sass",
+		"/Applications/MAMP/bin/php/php5.6.7/conf/php.ini",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/admin.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-table-filters.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-global/_form/form-engine-fields.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/inc/form_fields.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/_parts-global/_helpers.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/landing.js",
+		"/Applications/MAMP/bugcleaners/public/js/_parts-global/_form/form-engine.js",
+		"/Applications/MAMP/bugcleaners/public/js/_parts-global/_form/form-engine-fields.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/404.php",
+		"/Users/gazelle/Desktop/_emails_with_data.sql",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/backupbuddy/destinations/dropbox2/lib/Dropbox/Client.php",
+		"/Users/gazelle/Desktop/_emails.sql",
+		"/Users/gazelle/Desktop/getvoip_drupal_updated_2015-09-04.sql",
+		"/Users/gazelle/Desktop/gv_quote_requests.xml",
+		"/Users/gazelle/Desktop/data.txt",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/_import/emails-import-quote-request.sql",
+		"/Users/gazelle/Library/Application Support/Sublime Text 3/Packages/Modific/README.md",
+		"/Users/gazelle/Library/Application Support/Sublime Text 3/Packages/LESS/README.md",
+		"/Users/gazelle/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/compare.sass",
+		"/Users/gazelle/Desktop/error_log",
+		"/Users/gazelle/Desktop/sar03",
+		"/Users/gazelle/Desktop/sa03",
+		"/Users/gazelle/Desktop/messages",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-table-navigation.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-table-bulk.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-generate.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_admin-campaign/campaign-table-row_ip_details.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js/review.js",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/single-provider_review.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/single-phone_review.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/inc/sections-global.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_article/article-related_posts.sass",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/content-single.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/inc/template-tags.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/iframe.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/inc/sections.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/google-sitemap-generator/.htaccess",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/single-provider.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/header.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/single.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/convert.php",
+		"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass/_parts_compare/_vertical/chart-vertical-mobile.sass"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 100.0,
+		"where_history":
+		[
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/js",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/backupbuddy/destinations/dropbox2/lib/Dropbox",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/css",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/email-templates",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/getvoip-campaign",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/email-templates",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/email-templates/includes",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/google-sitemap-generator",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/advanced-custom-fields-pro",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-includes",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/inc",
+			"/Applications/MAMP/getvoip/gv_main_wp",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/advanced-custom-fields-pro",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-includes",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-includes",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass,-.sass-cache/",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass,-.sass-cache",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip/sass",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/hide_my_wp",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/wpai-acf-add-on",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/wp-all-import-pro",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/wpai-acf-add-on",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/custom-post-type-ui",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-admin",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-includes",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/plugins/wp-all-import-pro",
+			"/Applications/MAMP/getvoip/gv_main_wp/wp-content/themes/getvoip",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/themes/bwd_theme/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/themes/bwd_theme/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/themes/bwd_theme/woocommerce/cart",
+			"/Applications/MAMP/bwd/wp-content/themes/bwd_theme",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce/templates",
+			"/Applications/MAMP/bwd/wp-content/themes/bwd_theme",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce/includes",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce/templates",
+			"/Applications/MAMP/bwd/wp-content/themes/bwd_theme/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/themes/bwd_theme/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/themes/bwd_theme/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/themes/bwd_theme/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/themes/bwd_theme",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce/includes",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce/assets/js",
+			"/Applications/MAMP/bwd/wp-content/plugins/woocommerce/assets/js/frontend",
+			"/Applications/MAMP/getvoip/gv_main/sites/all/themes/gv_sky/",
+			"/Applications/MAMP/getvoip/gv_main/sites/all/themes/gv_sky/css/sass",
+			"<open folders>",
+			"/Applications/MAMP/shopperbarn/wp-content/plugins/woocommerce",
+			"<open folders>",
+			"/Applications/MAMP/snapmagnet/wp-content/plugins/gravityforms",
+			"/Applications/MAMP/snapmagnet/wp-content/plugins/gravityforms/js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"-eq",
+			"; then",
+			"[[",
+			"make_api_request",
+			"ajax",
+			"removeNoticeNow",
+			"timed",
+			"site_url().",
+			"Campaign",
+			"campaign",
+			"getvoip_campaign_admin_bar_link",
+			"go",
+			"endpoint_go.php",
+			"acf_set_options_page_title",
+			"fonts/",
+			"name",
+			"=>",
+			"Theme ",
+			"add_action",
+			"pointer-events",
+			"fieldset-label",
+			"Nossair",
+			"Unapproved review 1406760579",
+			"2047",
+			"5192",
+			"field>",
+			"<field name=\"field_r_email_value\">",
+			"<field name=\"entity_id\">",
+			"<field name=\"vote_source\">",
+			"<field name=\"delta\">",
+			"<field name=\"field_r_email_format\"",
+			"<field name=\"language\">",
+			"<field name=\"revision_id\">",
+			"<field name=\"deleted\">",
+			"<field name=\"bundle\">",
+			"<field name=\"entity_type\">",
+			"row>",
+			"<nid>",
+			"<email>",
+			"email",
+			"</review>",
+			"<review>",
+			"<created>",
+			"<changed>",
+			"\"",
+			"<",
+			"\"",
+			"$fields['",
+			"delete_quote",
+			"fieldKey",
+			"quoteID",
+			"firstname",
+			"ass=\"tbody-item-submission-item ",
+			"<div class=\"tbody-item-submission-item\">",
+			"open",
+			"provider",
+			"sendingItems",
+			"providerService",
+			" => ",
+			"_",
+			"=> '",
+			"lue=",
+			"value=\"",
+			"' =>",
+			" =>",
+			"current_en",
+			"\">",
+			"''",
+			"\">",
+			"'' => ",
+			"\">",
+			"quotes",
+			"demos",
+			"quotes",
+			"$current_page",
+			"$yesterday",
+			"form",
+			"label",
+			"'",
+			"l' => ', ",
+			"' => ' ",
+			"' ",
+			"'type' =>",
+			"bulk",
+			"echo",
+			"$output",
+			"$value['label']",
+			"'filter-ip'",
+			"Form",
+			"filter-form",
+			"\"",
+			"=>",
+			"\">",
+			"value",
+			"campaign-table-filters-item-title\">",
+			"['']",
+			"isset($_REQUEST['filter-",
+			"getvoip-campaign-quote",
+			"get_columns",
+			"colu",
+			"columns",
+			"current_entries",
+			" = ",
+			"public",
+			" =",
+			"rewrites",
+			"do_action",
+			"getvoip_custom_redirects",
+			"timesOpened",
+			"isSubscribed",
+			"callbackOnResults",
+			"exit",
+			"is_user_logged_in",
+			"exit",
+			"render_exit_intent",
+			"cookie",
+			"sendToProviders",
+			"automatically",
+			"update",
+			"sendToProviders",
+			"$item",
+			"provider",
+			"Provider",
+			"provider",
+			"Provider",
+			"provider",
+			"sendToProviders",
+			"=>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"',",
+			", '",
+			"$1$3",
+			"\"",
+			"_parts_home/",
+			"_parts-global/",
+			"&quot;",
+			"\"",
+			"&gt;",
+			"&lt;",
+			"<",
+			"\"",
+			"\\'",
+			"\"",
+			">",
+			"<",
+			">",
+			"<",
+			"GetVoIP",
+			"getvoip",
+			"$primary-color"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 98.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "BugTracker.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"getvoip/404.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/bugcleaners/bugcleaners.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

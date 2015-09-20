@@ -1,0 +1,25 @@
+doctype html
+html(lang='en-US', itemscope='', itemtype='http://schema.org/WebPage', dir='ltr', prefix='og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=0')
+		//- Begin Meta Data
+		link(rel="canonical", href='http://bugcleaners.com')
+		meta(property="og:url", content='http://bugcleaners.com')
+		link(rel="shortcut icon", href="/img/favicon.ico", type="image/x-icon")
+		meta(property="og:title", content="Same-day Pest Control Services 24/7 | BugCleaners")
+		meta(property="fb:admins", content="http://www.facebook.com/bugcleaners")
+		meta(itemprop="name", content="Same-day Pest Control Services 24/7 | BugCleaners")
+		//- End Meta data.
+		title Same-day Pest Control Services 24/7 | BugCleaners
+		link(rel='stylesheet', href='/css/style.css', type='text/css')
+		include ./_parts-global/takana.jade
+	body
+		include ./form-mixins.jade
+		.fields
+			input.fields-input.command(type="text", placeholder="Action")
+			input.fields-input.project(type="text", disabled="disabled")
+			input.fields-input.task(type="text", disabled="disabled")
+	
+		//- include ./_parts-global/footer.jade
+		script(type='text/javascript', src='js/global.min.js')

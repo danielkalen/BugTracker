@@ -1,0 +1,11 @@
+{
+  "name": "BugTracker",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "mongodb": "^2.0.43",
+    "monk": "^1.0.1"
+  }
+}
